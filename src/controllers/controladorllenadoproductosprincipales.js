@@ -2,50 +2,60 @@ let productosprincipalesisdecar=[
 	{
 		id:0,
 		nombre:"Carpado Automatio Volqueta",
-		fotos:[]
+		fotos:['../../assets/img/LogosIndexyServicios/SistemaAutomaticoVolquetaLogo.png'],
+		linktiendaA:'../../hola.html'
 	},
 	{
 		id:1,
 		nombre:"Carpado Manual Volqueta	",
-		fotos:[]
+		fotos:['../../assets/img/LogosIndexyServicios/'],
+		linktiendaA:'../../hola.html'
 	},
 	{
 		id:2,
 		nombre:"Sistema Acordeon Automatico Mula",
-		fotos:[]
+		fotos:['../../assets/img/LogosIndexyServicios/SistemaAutomaticoMulaLogo.png'],
+		linktiendaA:'../../hola.html'
 	},
 	{
 		id:3,
 		nombre:"Sistema Acordeon Manual Mula",
-		fotos:[]
+		fotos:['../../assets/img/LogosIndexyServicios/SistemaManualMulaLogo.png'],
+		linktiendaA:'../../hola.html'
 	},
 	{
 		id:4,
 		nombre:"Protector Lateral (Bicicletero)",
-		fotos:[]
+		fotos:['../../assets/img/LogosIndexyServicios/ProtectorLateralLogo.png'],
+		linktiendaA:'../../hola.html'
 	},
 	{
 		id:5,
 		nombre:"Cintas Reflectivas",
-		fotos:[]
+		fotos:['../../assets/img/LogosIndexyServicios/CintasReflectivasLogo.png'],
+		linktiendaA:'../../hola.html'
 	},
 	{
 		id:6,
 		nombre:"Malacates",
-		fotos:[]
+		fotos:['../../assets/img/LogosIndexyServicios/MalacateLogo.png'],
+		linktiendaA:'../../hola.html'
 	},
 	{
 		id:7,
 		nombre:"Discos Abrasivos",
-		fotos:[]
+		fotos:['../../assets/img/LogosIndexyServicios/DiscosAbrasivosLogo.png'],
+		linktiendaA:'../../hola.html'
 	},
 	{
 		id:8,
 		nombre:"Repuestos",
-		fotos:[]
+		fotos:[],
+		linktiendaA:'../../hola.html'
 	}
 ]
 let productoprincipal=document.getElementById('productosprincipales')
+const link= document.links;
 
 productosprincipalesisdecar.forEach(function(productoprincipalI){
 
@@ -67,5 +77,20 @@ productosprincipalesisdecar.forEach(function(productoprincipalI){
 	nombreproductoprincipal.textContent=productoprincipalI.nombre
 
 	//creando botnos
-    let linktienda=document.createElement('a') 
+
+	let linkportafolio=document.createElement("a") 
+	linkportafolio.textContent="Ver"
+	linkportafolio.classList.add("btn","btn-secondary","w-75","justify-content-center","mx-5", "my-4")
+    
+	let linktienda=document.createElement("a") 
+	linktienda.textContent="Ver"
+	linktienda.classList.add("btn","btn-secondary","w-50","justify-content-center","mx-5")
+	
+	
+
+    tarjeta.appendChild(fotoproductoprincipal)
+	tarjeta.appendChild(nombreproductoprincipal)
+	tarjeta.appendChild(linkportafolio)
+	columna.appendChild(tarjeta)
+	productoprincipal.appendChild(columna)	
 })
