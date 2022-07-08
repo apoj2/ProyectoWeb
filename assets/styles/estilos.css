@@ -12,6 +12,13 @@ z-index: 1;
 	color: white;
 }
 .logosisdecar{
-	background: url('../img/lOGOSISDECAR.png');
+	background: url('../img/lOGOSISDECAR.png ') no-repeat center center/cover;
 	border-radius: 15px;
+}
+.bg-yellow{
+	background: yellow;
+	
+}
+.bg-grisclaro{
+	background: gainsboro;
 }
