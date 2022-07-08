@@ -7,3 +7,11 @@ z-index: 1;
 	list-style: none;
 
 }
+.linksli{
+	text-decoration: none;
+	color: white;
+}
+.logosisdecar{
+	background: url('../img/lOGOSISDECAR.png');
+	border-radius: 15px;
+}
