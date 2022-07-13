@@ -55,7 +55,6 @@ let productosprincipalesisdecar=[
 	}
 ]
 let productoprincipal=document.getElementById('productosprincipales')
-const link= document.links;
 
 productosprincipalesisdecar.forEach(function(productoprincipalI){
 
