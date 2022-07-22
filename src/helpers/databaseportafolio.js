@@ -1,0 +1,199 @@
+ export let SistemaAutomaticoVolqueta=[
+	{
+     id:0,
+	 imagen:0,
+	 foto:['https://firebasestorage.googleapis.com/v0/b/proyectomauricio-abd16.appspot.com/o/SistemaAutomaticoVolqueta1.jpg?alt=media&token=d893e7e6-0f97-4bd7-abb8-881ec33615c8']
+	},
+	{
+		id:1,
+		imagen:1,
+		foto:['https://firebasestorage.googleapis.com/v0/b/proyectomauricio-abd16.appspot.com/o/SistemaAutomaticoVolqueta2.png?alt=media&token=5f7ead13-ddd0-4e79-9c4a-977f58087931']
+	},
+	{
+		id:2,
+		imagen:2,
+		foto:['https://firebasestorage.googleapis.com/v0/b/proyectomauricio-abd16.appspot.com/o/SistemaAutomaticoVolqueta3.jpg?alt=media&token=92fdb92d-b46a-4b78-ac57-f509aeb89811']
+	},
+	{
+		id:3,
+		imagen:3,
+		foto:['https://firebasestorage.googleapis.com/v0/b/proyectomauricio-abd16.appspot.com/o/SistemaAutomaticoVolqueta4.jpg?alt=media&token=8908d507-3818-4e49-88ab-98389ec0e1bd']
+	},
+	{
+		id:4,
+		imagen:4,
+		foto:['https://firebasestorage.googleapis.com/v0/b/proyectomauricio-abd16.appspot.com/o/SistemaAutomaticoVolqueta5.jpg?alt=media&token=f71b82e7-af82-4fdc-96c4-07a8a45b9af9']
+	   },
+	   {
+		id:5,
+		imagen:5,
+		foto:['https://firebasestorage.googleapis.com/v0/b/proyectomauricio-abd16.appspot.com/o/SistemaAutomaticoVolqueta6.jpg?alt=media&token=70bb7d96-5bf6-4db0-9303-047652c1ebc1']
+	   },
+	   {
+		id:6,
+		imagen:6,
+		foto:['https://firebasestorage.googleapis.com/v0/b/proyectomauricio-abd16.appspot.com/o/SistemaAutomaticoVolqueta7.jpg?alt=media&token=53cf8a28-4c0c-4eb3-a2bd-d06e150bcff1']
+	   },
+	   {
+		id:7,
+		imagen:7,
+		foto:['https://firebasestorage.googleapis.com/v0/b/proyectomauricio-abd16.appspot.com/o/SistemaAutomaticoVolqueta8.jpg?alt=media&token=5ee8865e-ec59-4209-abd9-a775c2deec16']
+	   },
+	   {
+		id:8,
+		imagen:8,
+		foto:['https://firebasestorage.googleapis.com/v0/b/proyectomauricio-abd16.appspot.com/o/SistemaAutomaticoVolqueta9.jpg?alt=media&token=6c4d72d8-f29b-4443-99e0-4e9ae64cc69f']
+	   },
+]
+export let SistemaManualVolqueta=[
+]
+export let SistemaAutomaticoMula=[
+	{
+     id:0,
+	 imagen:0,
+	 foto:['https://firebasestorage.googleapis.com/v0/b/proyectomauricio-abd16.appspot.com/o/SistemaAcordeonAutomatico1.jpg?alt=media&token=de74fbf0-69c1-4c02-862a-ed5cac63dda8']
+	},
+	{
+		id:1,
+		imagen:1,
+		foto:['https://firebasestorage.googleapis.com/v0/b/proyectomauricio-abd16.appspot.com/o/SistemaAcordeonAutomatico2.jpg?alt=media&token=1b5ec164-a289-45ba-8290-a5815716b158']
+	},
+	{
+		id:2,
+		imagen:2,
+		foto:['https://firebasestorage.googleapis.com/v0/b/proyectomauricio-abd16.appspot.com/o/SistemaAcordeonAutomatico3.jpg?alt=media&token=715b89a3-a2cb-4cb0-91d4-2ae9a6bf9274']
+	},
+	{
+		id:3,
+		imagen:3,
+		foto:['https://firebasestorage.googleapis.com/v0/b/proyectomauricio-abd16.appspot.com/o/SistemaAcordeonAutomatico4.jpg?alt=media&token=d41f7422-8475-4be6-a7ac-aa9e4d140b83']
+	},
+	{
+		id:4,
+		imagen:4,
+		foto:['https://firebasestorage.googleapis.com/v0/b/proyectomauricio-abd16.appspot.com/o/SistemaAcordeonAutomatico5.jpg?alt=media&token=cdfe8773-acb5-42a2-8e97-cc027e44b5d1']
+	   },
+	   {
+		id:5,
+		imagen:5,
+		foto:['https://firebasestorage.googleapis.com/v0/b/proyectomauricio-abd16.appspot.com/o/SistemaAcordeonAutomatico6.jpg?alt=media&token=19bd7d93-ac8d-4a77-a791-e4418c239b55']
+	   },
+	   {
+		id:6,
+		imagen:6,
+		foto:['https://firebasestorage.googleapis.com/v0/b/proyectomauricio-abd16.appspot.com/o/SistemaAcordeonAutomatico7.jpg?alt=media&token=bd9f2455-e83e-454b-ae87-911af2a52eca']
+	   }
+	   
+]
+export let SistemaManualMula=[
+]
+export let ProtectorLateral=[
+	{
+     id:0,
+	 imagen:0,
+	 foto:['https://firebasestorage.googleapis.com/v0/b/proyectomauricio-abd16.appspot.com/o/ProtectoLateral1.jpg?alt=media&token=9dd4914c-b2f4-4ce7-98fe-6370d237ed60']
+	},
+	{
+		id:1,
+		imagen:1,
+		foto:['https://firebasestorage.googleapis.com/v0/b/proyectomauricio-abd16.appspot.com/o/ProtectoLateral2.jpg?alt=media&token=e58db17c-6647-4c9a-bcf0-97c8600bc98e']
+	},
+	{
+		id:2,
+		imagen:2,
+		foto:['https://firebasestorage.googleapis.com/v0/b/proyectomauricio-abd16.appspot.com/o/ProtectoLateral3.jpg?alt=media&token=f73fdef6-a99e-432b-89e8-2c0de20f1cf3']
+	},
+	{
+		id:3,
+		imagen:3,
+		foto:['https://firebasestorage.googleapis.com/v0/b/proyectomauricio-abd16.appspot.com/o/ProtectoLateral4.jpg?alt=media&token=e3cf7fb3-1cad-4483-9dd3-b147f15b5a35']
+	},
+	{
+		id:4,
+		imagen:4,
+		foto:['https://firebasestorage.googleapis.com/v0/b/proyectomauricio-abd16.appspot.com/o/ProtectoLateral5.jpg?alt=media&token=ff7d0077-88f2-4a3f-90d8-03dd9e0454f8']
+	   },
+	   {
+		id:5,
+		imagen:5,
+		foto:['https://firebasestorage.googleapis.com/v0/b/proyectomauricio-abd16.appspot.com/o/ProtectoLateral6.jpg?alt=media&token=7b1351a5-b232-4e91-8d34-4745dce8ab2f']
+	   },
+	   {
+		id:6,
+		imagen:6,
+		foto:['https://firebasestorage.googleapis.com/v0/b/proyectomauricio-abd16.appspot.com/o/ProtectoLateral7.jpg?alt=media&token=f053148e-58e3-4991-8b10-201b80eb96db']
+	   },
+	   {
+		id:7,
+		imagen:7,
+		foto:['https://firebasestorage.googleapis.com/v0/b/proyectomauricio-abd16.appspot.com/o/ProtectoLateral8.jpg?alt=media&token=c1d34870-6cb4-4a9a-8c6d-46f4ccb5f11f']
+	   },
+	   {
+		id:8,
+		imagen:8,
+		foto:['https://firebasestorage.googleapis.com/v0/b/proyectomauricio-abd16.appspot.com/o/ProtectoLateral9.jpg?alt=media&token=965431db-e146-416a-a92f-efdeb0039bda']
+	   },
+]
+export let CintasReflectivas=[
+	{
+     id:0,
+	 imagen:0,
+	 foto:['https://firebasestorage.googleapis.com/v0/b/proyectomauricio-abd16.appspot.com/o/CintaReflectiva1.jpg?alt=media&token=cedc0c23-bc93-4954-a9d3-39dfcfe64156']
+	},
+	{
+		id:1,
+		imagen:1,
+		foto:['https://firebasestorage.googleapis.com/v0/b/proyectomauricio-abd16.appspot.com/o/CintaReflectiva2.jpg?alt=media&token=8e776454-def6-4ba3-bc3a-071ad5a633ae']
+	},
+	{
+		id:2,
+		imagen:2,
+		foto:['https://firebasestorage.googleapis.com/v0/b/proyectomauricio-abd16.appspot.com/o/CintaReflectiva3.jpg?alt=media&token=f704ea46-e4da-4ea1-8211-daa2e476fa30']
+	},
+	{
+		id:3,
+		imagen:3,
+		foto:['https://firebasestorage.googleapis.com/v0/b/proyectomauricio-abd16.appspot.com/o/CintaReflectiva4.jpg?alt=media&token=1bb4cc64-239d-4848-a5ab-2783275130c3']
+	},
+	{
+		id:4,
+		imagen:4,
+		foto:['https://firebasestorage.googleapis.com/v0/b/proyectomauricio-abd16.appspot.com/o/CintaReflectiva5.jpg?alt=media&token=04f549ff-a8ff-4c0c-a1f7-f0d4d6be3e8e']
+	   }
+]
+export let DiscosAbrasivos=[	{
+	id:0,
+	imagen:0,
+	foto:['https://firebasestorage.googleapis.com/v0/b/proyectomauricio-abd16.appspot.com/o/DiscosAbrasivos3.jpg?alt=media&token=092c509c-9167-41bc-ba8e-7dc329aa3e50']
+   },
+   {
+	id:1,
+	imagen:1,
+	foto:['https://firebasestorage.googleapis.com/v0/b/proyectomauricio-abd16.appspot.com/o/DiscosAbrasivos6.jpg?alt=media&token=173f9dcb-678d-430c-ad48-b58702cbf615']
+   },
+   {
+	id:2,
+	imagen:2,
+	foto:['https://firebasestorage.googleapis.com/v0/b/proyectomauricio-abd16.appspot.com/o/DiscosAbrasivos19.jpg?alt=media&token=97eb6fa3-c8a5-4bb3-800b-a34486027f1f']
+   },
+   {
+	id:3,
+	imagen:3,
+	foto:['https://firebasestorage.googleapis.com/v0/b/proyectomauricio-abd16.appspot.com/o/DiscosAbrasivos15.jpg?alt=media&token=3ea71952-dea7-4481-a2ff-100da6bb0286']
+   },
+   {
+	id:4,
+	imagen:4,
+	foto:['https://firebasestorage.googleapis.com/v0/b/proyectomauricio-abd16.appspot.com/o/DiscosAbrasivos12.jpg?alt=media&token=d1c4a13e-a08c-4857-93b3-7aea0fc2a239']
+   },
+   {
+	id:5,
+	imagen:5,
+	foto:['https://firebasestorage.googleapis.com/v0/b/proyectomauricio-abd16.appspot.com/o/DiscosAbrasivos20.jpg?alt=media&token=73a9bfd8-4cae-4ede-a1a9-eb75effc02c5']
+   }
+
+]
+export let Repuestos=[
+]
+export let Malacates=[
+]

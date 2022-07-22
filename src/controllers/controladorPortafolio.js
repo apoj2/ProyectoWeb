@@ -1,0 +1,11 @@
+import { llenarPortafolio,llenarPortafolio1,llenarPortafolio2,llenarPortafolio3,llenarPortafolio4,llenarPortafolio5,llenarPortafolio6,llenarPortafolio7,llenarPortafolio8 } from "./controladorllenadoportafolio.js";
+import{SistemaAutomaticoVolqueta,SistemaManualVolqueta,SistemaAutomaticoMula,SistemaManualMula,ProtectorLateral,CintasReflectivas,DiscosAbrasivos,Malacates,Repuestos}from "../helpers/databaseportafolio.js"
+llenarPortafolio(SistemaAutomaticoVolqueta)
+llenarPortafolio1(SistemaManualVolqueta)
+llenarPortafolio2(SistemaAutomaticoMula)
+llenarPortafolio3(SistemaManualMula)
+llenarPortafolio4(ProtectorLateral)
+llenarPortafolio5(CintasReflectivas)
+llenarPortafolio6(DiscosAbrasivos)
+llenarPortafolio7(Malacates)
+llenarPortafolio8(Repuestos)
