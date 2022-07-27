@@ -21,7 +21,7 @@
   <header>
     <nav class="navbar w-100 navbar-expand-lg bg-yellow  navegacion ">
         <div class="container-fluid">
-          <img src="" class="w-25 h-25" alt="">
+          <img src="./assets/img/logoportada.png" class="img-fluid" alt="">
 
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -33,9 +33,9 @@
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle active" data-bs-toggle="dropdown" href="/src/views/portafolio.html" role="button" aria-expanded="false">Portafolio</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="/src/views/portafolio.html">Portafolio</a></li>
-                  <li><a class="dropdown-item" href="/src/views/portafolio.html#fotosportafolio1">Autocarpado Volqueta</a></li>
+                <ul class="dropdown-menu bg-yellow">
+                  <li><a class="dropdown-item " href="/src/views/portafolio.html">Portafolio</a></li>
+                  <li><a class="dropdown-item " href="/src/views/portafolio.html#fotosportafolio1">Autocarpado Volqueta</a></li>
                   <li><a class="dropdown-item" href="/src/views/portafolio.html#fotosportafolio2">Manual Volqueta</a></li>
                   <li><a class="dropdown-item" href="/src/views/portafolio.html#fotosportafolio3">Autocarpado Mula</a></li>
                   <li><a class="dropdown-item" href="/src/views/portafolio.html#fotosportafolio4">Manual Mula</a></li>
@@ -48,7 +48,7 @@
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle active" data-bs-toggle="dropdown" href="/src/views/tienda.html" role="button" aria-expanded="false">Tienda</a>
-                <ul class="dropdown-menu">
+                <ul class="dropdown-menu bg-yellow">
                   <li><a class="dropdown-item" href="/src/views/tienda.html">Tienda</a></li>
                   <li><a class="dropdown-item" href="/src/">Autocarpado Volqueta</a></li>
                   <li><a class="dropdown-item" href="#">Manual Volqueta</a></li>
@@ -90,7 +90,7 @@
                     estan capacitados para realizar su trabajo de manera eficiente y con una de las mejores calidades del mercado,
                     somos mas que una empresa, somos tu seguridad, somos tu regreso y nos preocupamos por tu vida.
                   </p>
-                  <a href="/src/html/Quienessomos.html" class="btn btn-outline-secondary rounded-0 my-4">Conocenos</a>
+                  <a href="./src/views/" class="btn btn-outline-secondary rounded-0 my-4">Conocenos</a>
                 </div>
               </div>
               
@@ -116,7 +116,7 @@
                             <li class="carousel__slide">
                                 <figure>
                                     <div>
-                                        <img src="https://firebasestorage.googleapis.com/v0/b/proyectomauricio-abd16.appspot.com/o/sisdecarimg.png?alt=media&token=dd1941f6-9718-4b77-bbdc-9af3d0e02d2b" class="w-100 h-100 img-fluid" alt="Logosisdecar">
+                                        <img src="https://firebasestorage.googleapis.com/v0/b/proyectomauricio-abd16.appspot.com/o/SisdecarLogo.png?alt=media&token=deef5f63-d798-478c-8c4f-f01c04f54ee5" class="w-100 h-100 img-fluid" alt="Logosisdecar">
                                     </div>
                                  
                                 </figure>
@@ -271,10 +271,22 @@
         </div>
       </div>
   </section>
+  <section>
+		<div class="container">
+		  <div class="row">
+			<div class="col-12 my-2 row-cols 1 row-cols-md-4">
+			  <form class="d-flex">
+				<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="buscador">
+				
+			  </form>
+			</div>
+		  </div>
+		</div>
+	  </section>
 
      <section>
 		<div class="container">
-			<div class="row row-cols-1 row-cols-md-3" id="productosprincipales">
+			<div class="row row-cols-1 row-cols-md-3" id="productosprincipalesindex">
 
 			</div>
 		</div>
@@ -410,7 +422,7 @@
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.7/glider.min.js"></script>
-  <script src="./src/controllers/controladorTienda.js" type="module"> </script>
+  <script src="./src/controllers/controladorindex.js" type="module"> </script>
 
 
     <!-- JavaScript Bundle with Popper -->

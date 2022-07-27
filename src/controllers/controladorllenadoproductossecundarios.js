@@ -1,13 +1,13 @@
-export function llenarproductosprincipales(productos){
+export function llenarproductossecundarios(productos){
 	
-	let productoprincipal=document.getElementById('productosprincipales')
-	productoprincipal.innerHTML=''
+	let productodeproducto=document.getElementById('productosdeproducto')
+	productodeproducto.innerHTML=''
 
-	productos.forEach(function(productoprincipalI){
+	productos.forEach(function(productodeproductoI){
 	
 		//creacionn de la columna
 		let columna = document.createElement("div")
-		columna.classList.add("col","my-3")
+		columna.classList.add("col","my-3","productos")
 	
 		//creacioon de la tarjeta
 		let tarjeta=document.createElement("div")
@@ -16,14 +16,12 @@ export function llenarproductosprincipales(productos){
 		//creeando fotos de ls tarjetas
 		let fotoproductoprincipal=document.createElement("img")
 		fotoproductoprincipal.classList.add("img-fluid","w-100")
-		fotoproductoprincipal.src=productoprincipalI.fotos
+		fotoproductoprincipal.src=productodeproductoI.fotos
 	
 		//creando el nombre dle producto
 		let nombreproductoprincipal=document.createElement("div")
-		nombreproductoprincipal.textContent=productoprincipalI.nombre
-
+		nombreproductoprincipal.textContent=productodeproductoI.nombre
 	
-		
 	
 		
 		
@@ -31,6 +29,6 @@ export function llenarproductosprincipales(productos){
 		tarjeta.appendChild(fotoproductoprincipal)
 		tarjeta.appendChild(nombreproductoprincipal)
 		columna.appendChild(tarjeta)
-		productoprincipal.appendChild(columna)	
+		productodeproducto.appendChild(columna)	
 	})
 }
