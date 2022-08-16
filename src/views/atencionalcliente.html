@@ -32,7 +32,7 @@
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle active" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Portafolio</a>
-                <ul class="dropdown-menu">
+                <ul class="dropdown-menu bg-yellow">
                   <li><a class="dropdown-item" href="./portafolio.html">Portafolio</a></li>
                   <li><a class="dropdown-item" href="./portafolio.html#fotosportafolio1">Autocarpado Volqueta</a></li>
                   <li><a class="dropdown-item" href="./portafolio.html#fotosportafolio2">Manual Volqueta</a></li>
@@ -47,24 +47,26 @@
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle active" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Tienda</a>
-                <ul class="dropdown-menu">
+                <ul class="dropdown-menu bg-yellow">
                   <li><a class="dropdown-item" href="./tienda.html">Tienda</a></li>
-                  <li><a class="dropdown-item" href="#">Autocarpado Volqueta</a></li>
-                  <li><a class="dropdown-item" href="#">Manual Volqueta</a></li>
-                  <li><a class="dropdown-item" href="#">Autocarpado Mula</a></li>
-                  <li><a class="dropdown-item" href="#">Manual Mula</a></li>
-                  <li><a class="dropdown-item" href="#">Protector Lateral</a></li>
-                  <li><a class="dropdown-item" href="#">Cintas Reflectivas</a></li>
-                  <li><a class="dropdown-item" href="#">Discos Abrasivos</a></li>
-                  <li><a class="dropdown-item" href="#">Repuestos</a></li>
-                  <li><a class="dropdown-item" href="#">Malacates</a></li>
+                  <li><a class="dropdown-item" href="./tienda.html#productosprincipales">Autocarpado Volqueta</a></li>
+                  <li><a class="dropdown-item" href="./tienda.html#productosprincipales">Manual Volqueta</a></li>
+                  <li><a class="dropdown-item" href="./tienda.html#productosprincipales">Autocarpado Mula</a></li>
+                  <li><a class="dropdown-item" href="./tienda.html#productosprincipales">Manual Mula</a></li>
+                  <li><a class="dropdown-item" href="./tienda.html#productosprincipales">Protector Lateral</a></li>
+                  <li><a class="dropdown-item" href="./tienda.html#productosprincipales">Cintas Reflectivas</a></li>
+                  <li><a class="dropdown-item" href="./tienda.html#productosprincipales">Discos Abrasivos</a></li>
+                  <li><a class="dropdown-item" href="./tienda.html#productosprincipales">Repuestos</a></li>
+                  <li><a class="dropdown-item" href="./tienda.html#productosprincipales">Malacates</a></li>
                 </ul>
               </li>
               <li class="nav-item">
                 <a class="nav-link active" href="./Quienessomos.html">¿Quienes Somos?</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="/src/views/contactos.html">Contactos</a>
+				<button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+					<i class="bi bi-person-circle"></i> Contacto
+				 </button>
               </li>
              
            
@@ -79,6 +81,7 @@
         <div class="row">
           <div class="col-12">
             <br><br><br><br>
+			<p class="shadow p-2">
               POLÍTICA DE TRATAMIENTO DE DATOS PERSONALES
 Como responsables del uso de la información de nuestros clientes y empleados, garantizamos la protección de los derechos como el Habeas Data, la privacidad, la intimidad y el buen nombre y Con fundamento en lo dispuesto en la Constitución Política de Colombia, la Ley 1266 de 2008, la Ley 1581 de 2012 y las normas que las desarrollan, complementan, modifican o sustituyen, SISDECAR S.A.S ha definido la presente Política de Tratamiento de Datos Personales.
 
@@ -280,64 +283,135 @@ El titular de los datos personales en tratamiento, para efectos de ejercer sus d
         </div>
       </div>
     </section>
-    <section>
-      <div class="container">
-        <div class="row text-center">
-          <div class="col-12">
-            <h1>Preguntas Frecuentes</h1>
-          </div>
-          <div class="col-12">
-
-          </div>
-        </div>
-      </div>
-    </section>
-    <section>
-      <div class="container">
-        <div class="row text-center">
-          <div class="col-12">
-            <h1>Pedidos y Envios</h1>
-          </div>
-          div.col-12
-        </div>
-      </div>
-    </section>
-    <section>
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <h1>Garantía</h1>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section>
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <h1>Condiciones de compra</h1>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section>
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <h1>Privacidad y Cookies</h1>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section>
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <h1>Avisos Legales</h1>
-          </div>
-        </div>
-      </div>
-    </section>
+<section class="shadow my-4">
+	<section>
+		<div class="container">
+		  <div class="row text-center row-cols-1 row-cols-md-1" id="c">
+			<div class="col col-12 col-md-12">
+			  <h1>Preguntas Frecuentes</h1>
+			</div>
+			<div class="col col-12 col-md-12">
+  
+			</div>
+		  </div>
+		</div>
+	  </section>
+	  <section>
+		<div class="container">
+		  <div class="row text-center row-cols-1 row-cols-md-1" id="c1">
+			<div class="col col-12 col-md-12">
+			  <h1>Pedidos y Envios</h1>
+			</div>
+			<div class="col col-12 col-md-12">
+  
+		  </div>
+		  </div>
+		</div>
+	  </section>
+	  <section>
+		<div class="container">
+		  <div class="row text-center row-cols-1 row-cols-md-1" id="c2">
+			<div class="col col-12 col-md-12">
+			  <h1>Garantía</h1>
+			</div>
+			<div class="col col-12 col-md-12">
+  
+		  </div>
+		  </div>
+		</div>
+	  </section>
+	  <section>
+		<div class="container">
+		  <div class="row text-center row-cols-1 row-cols-md-1" id="c3">
+			<div class="col col-12 col-md-12">
+			  <h1>Condiciones de compra</h1>
+			</div>
+			<div class="col col-12 col-md-12">
+  
+		  </div>
+		  </div>
+		</div>
+	  </section>
+	  <section>
+		<div class="container">
+		  <div class="row text-center row-cols-1 row-cols-md-1" id="c4">
+			<div clascol s="col col-md-12">
+			  <h1>Privacidad y Cookies</h1>
+			</div>
+			<div class="col col-12 col-md-12">
+  
+		  </div>
+		  </div>
+		</div>
+	  </section>
+	  <section>
+		<div class="container">
+		  <div class="row text-center row-cols-1 row-cols-md-1" id="c5">
+			<div class="col col-12 col-md-12">
+			  <h1>Avisos Legales</h1>
+			</div>
+			<div class="col col-12 col-md-12">
+  
+		  </div>
+		  </div>
+		</div>
+	  </section>
+</section>
+<section>
+	<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+		<div class="offcanvas-header bg-yellow">
+			<h5 class="offcanvas-title " id="offcanvasExampleLabel">Contacto</h5>
+			<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+		</div>
+		<section class="bg-yellow w-100 h-25">
+			<img src="/assets/img/MAURICIO.jpg.png" class="w-50 h-100 img-fluid d-block m-xxl-auto mx-auto" alt=""> 
+				
+		  </section>
+		  <section class="bg-yellow">
+			<div class="row row-cols-12 row-cols-md-2 ms-5 mt-5 mb-2">
+				<div class="col col-12 col-md-4">
+					<a href="" class="text-light btn btn-success"><i class="bi bi-whatsapp iconoscontacto"></i></a>
+				</div>
+				<div class="col col-12 col-md-4">
+					<a href="" class="text-light btn btn-primary"><i class="bi bi-messenger iconoscontacto"></i></a>
+				</div>
+				<div class="col col-12 col-md-4">
+					<a href="" class="text-light btn btn-danger"><i class="bi bi-envelope iconoscontacto"></i></a>
+				</div>
+			</div>
+		  </section>
+		
+		<div class="offcanvas-body">
+		
+		  <form class="">
+			<div class="mb-3">
+				<label for="exampleInputEmail1" class="form-label text-danger">Envianos Tu correo</label>
+			</div>
+			<div class="mb-3">
+				<label for="exampleInputEmail1" class="form-label">Correo</label>
+				<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+				<div id="emailHelp" class="form-text">Es necesario tu Email para poder comunicarnos contigo.</div>
+			  </div>
+			<div class="mb-3">
+			  <label for="exampleInputEmail1" class="form-label">Nombre</label>
+			  <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+			</div>
+			<div class="mb-3">
+			  <label for="exampleInputPassword1" class="form-label">Mensaje</label>
+			  <input type="password" class="form-control" id="exampleInputPassword1">
+			</div>
+			<div class="mb-3">
+				<div id="emailHelp" class="form-text text-center"></i>Al darle al boton acepto el tratamiento de datos.</div>
+			</div>
+			<div class="mb-3">
+				<button type="submit" class="btn btn-primary d-block m-xxl-auto mx-auto">Contactar</button>
+			</div>
+		  </form>
+		
+		
+		</div>
+	</div>
+  </section>
   </main>
   <footer class="bg-dark text-light d-block text-center ">
     <div class="linksimportantes mx-5  h-100">
@@ -348,22 +422,22 @@ El titular de los datos personales en tratamiento, para efectos de ejercer sus d
             <h2>Atencion al cliente</h2>
             <ul class="links">
                 <li>
-                    <a class="linksli" href="">Preguntas Frecuentes</a>
+                    <a class="linksli" href="./atencionalcliente.html#c">Preguntas Frecuentes</a>
                 </li>
                 <li>
-                    <a  class="linksli" href="">Pedidos y Envios</a>
+                    <a  class="linksli" href="./atencionalcliente.html#c1">Pedidos y Envios</a>
                 </li>
                 <li>
-                    <a  class="linksli" href="">Garantia</a>
+                    <a  class="linksli" href="./atencionalcliente.html#c2">Garantia</a>
                 </li>
                 <li>
-                    <a  class="linksli" href="">Condiciones de compra</a>
+                    <a  class="linksli" href="./atencionalcliente.html#c3">Condiciones de compra</a>
                 </li>
                 <li>
-                    <a  class="linksli" href="">Privacidad y Cookies</a>
+                    <a  class="linksli" href="./atencionalcliente.html#c4">Privacidad y Cookies</a>
                 </li>
                 <li>
-                    <a class="linksli" href="">Avisos legales</a>
+                    <a class="linksli" href="./atencionalcliente.html#c5">Avisos legales</a>
                 </li>
             </ul>
         </div>
@@ -371,7 +445,7 @@ El titular de los datos personales en tratamiento, para efectos de ejercer sus d
             <h2>Nosotros</h2>
             <ul class="links">
                      <li>
-                    <a  class="linksli" href="/src/html/Quienessomos.html">Quienes Somos</a>
+                    <a  class="linksli" href="./Quienessomos.html">Quienes Somos</a>
                      </li>
                     <li>
                         <a class="linksli"  href="">Afiliados</a>
@@ -386,7 +460,7 @@ El titular de los datos personales en tratamiento, para efectos de ejercer sus d
             <h2>Tienda</h2>
             <ul class="links ">
                 <li>
-                    <a  class="linksli" href="">Servicios</a>
+                    <a  class="linksli" href="./tienda.html">Servicios</a>
                 </li>
                 <li>
                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.6881046482554!2d-75.55825628573406!3d6.304647327419141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e442f171559ef81%3A0x81add99922fd153a!2sSISDECAR!5e0!3m2!1sen!2sco!4v1657316525570!5m2!1sen!2sco" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -402,7 +476,7 @@ El titular de los datos personales en tratamiento, para efectos de ejercer sus d
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.7/glider.min.js"></script>
-<script src="./src/controllers/controladorTienda.js"> </script>
+<script src="./src/controllers/controladorTienda.js" type="module"> </script>
 
 
     <!-- JavaScript Bundle with Popper -->

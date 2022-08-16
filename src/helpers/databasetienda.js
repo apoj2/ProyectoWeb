@@ -10,7 +10,7 @@ export let productosprincipalesisdecar=[
 	},
 	{
 		id:1,
-		nombre:"Carpado Manual Volqueta	",
+		nombre:"Carpado Manual Volqueta",
 		precio:2600000,
 		cantidad:0,
 		descripcion:"",

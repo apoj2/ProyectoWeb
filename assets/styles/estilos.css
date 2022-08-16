@@ -14,7 +14,7 @@ z-index: 1;
 }
 .logosisdecar{
 	background: url('../img/lOGOSISDECAR.png ') no-repeat center center/cover;
-	border-radius: 15px;
+	border-radius:  15px 0 0 15px ;
 }
 .bg-yellow{
 	background: yellow;
@@ -32,14 +32,23 @@ z-index: 1;
 .carousel{
 	z-index: 0;
 }
+.productos{
+	display:block;
+	visibility: inherit;
+}
+.pointer{
+	cursor: pointer;
+}
+ .pointernone{
+	cursor: auto;
+ } 
+.div_contactos:hover{
+	background-color: darkgrey;
+}
+.iconoscontacto{
+width: 500px;
+}
 
-
-  
-  .container {
-	max-width: 1044px;
-	margin: 0 auto;
-	padding: 0 20px;
-  }
   
   .carousel {
 	display: block;
@@ -256,7 +265,7 @@ z-index: 1;
 	-webkit-animation: scroll 40s linear infinite;
 			animation: scroll 40s linear infinite;
 	display: flex;
-	width: calc(250px * 14);
+	width: calc(250px*14);
   }
   .slider .slide {
 	height: 100px;
